@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Image Hover Effect (CSS/jQuery ) For Blogger / Blogspot by Way2blogging.org</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	jquery(document).ready(function($){
+		$(".thumbs img").fadeTo("slow", 0.6); 
+		$(".thumbs img").hover(function(){
+			$(this).fadeTo("slow", 1.0);
+		},function(){
+			$(this).fadeTo("slow", 0.6); 
+		});
+	});
+	</script>
+	<style type="text/css">
+		*{border:0;padding:0;text-align:center;text-decoration:none;}
+		a.thumbopacity img {filter:alpha(opacity=50);-moz-opacity: 0.5;opacity: 0.5;-khtml-opacity: 0.5;}
+		a.thumbopacity:hover img {filter:alpha(opacity=100);-moz-opacity: 1.0;opacity: 1.0;-khtml-opacity: 1.0; }
+		.thumbborder img{border: 2px solid #ccc;}
+		.thumbborder:hover img{border: 2px solid navy;}
+		.thumbborder:hover{border-color: red; }
+		td{padding:5px;text-align:center}
+	</style>
+</head>
+<body>
+	<div id="demo">
+		<table align="center">
+			<tr>
+				<td><a class="thumbopacity" href="http://www.way2blogging.org/2010/07/how-to-add-image-hover-effect-cssjquery.html"><img src="https://lh6.googleusercontent.com/-t96l8owqZQM/TWxxbpnXpUI/AAAAAAAAAb0/cTKZEQY2xBk/s1600/Prabhas-Harish-150x150.jpg"></a></td>
+				<td><a class="thumbborder" href="http://www.way2blogging.org/2010/07/how-to-add-image-hover-effect-cssjquery.html"><img src="https://lh6.googleusercontent.com/-t96l8owqZQM/TWxxbpnXpUI/AAAAAAAAAb0/cTKZEQY2xBk/s1600/Prabhas-Harish-150x150.jpg"></a></td>
+				<td><a class="thumbs" href="http://www.way2blogging.org/2010/07/how-to-add-image-hover-effect-cssjquery.html"><img src="https://lh6.googleusercontent.com/-t96l8owqZQM/TWxxbpnXpUI/AAAAAAAAAb0/cTKZEQY2xBk/s1600/Prabhas-Harish-150x150.jpg"></a></td>
+			</tr>
+			<tr>
+				<th>CSS Opacity Effect</th>
+				<th>CSS Border Effect</th>
+				<th>jQuery Fading Effect</th>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<span style="font-weight:bold; letter-spacing: 3px;">Copyright &copy; 2011 By Harish @ <a href="http://www.way2blogging.org">Way2Blogging.org</a></span>
+</body>
+</html>

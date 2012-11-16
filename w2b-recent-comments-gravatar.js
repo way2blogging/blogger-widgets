@@ -1,24 +1,22 @@
-//<![CDATA[
 /**
  * Recent Comments Widget with Avatar for Blogger
- * Version	: 1.3
- * Author 	: Harish
- * Author Url 	: http://www.way2blogging.org/
- * (c) 2012 allrightsreserved.
  *
- *	--==Options==--
- * 		var 	numComments 	= 5,
- * 			showAvatar 	= true,
- * 			avatarSize 	= 60,
- * 			roundAvatar	= true,
- * 			showMorelink	= false,
- * 			moreLinktext	= "More &raquo;"
- * 			characters 	= 40,
- * 			defaultAvatar 	= "http://www.gravatar.com/avatar/?d=mm",
- * 			hideCredits	= false;
- * 
+ * @author  Harish Dasari
+ * @link    http://www.way2blogging.org/
+ * @version 1.3.1
+ *
+ * @example
+ *    var
+ *        numComments    = 5,
+ *        showAvatar     = true,
+ *        avatarSize     = 60,
+ *        roundAvatar    = true,
+ *        showMorelink   = false,
+ *        moreLinktext   = "More &raquo;"
+ *        characters     = 40,
+ *        defaultAvatar  = "http://www.gravatar.com/avatar/?d=mm",
+ *        hideCredits    = false;
+ *
  */
 
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('7 D=D||5,9=9||19,A=A||1a,m=m||"h://W.S.g/16/?d=18",E=E||" 1p &1f;",v=(p v===\'o\')?j:v,z=(p z===\'o\')?Z:z,n=(p n===\'o\')?j:n,M=(p M===\'o\')?Z:n;1l 12(L){7 b;b=\'<Y C="12">\';H(7 i=0;i<D;i++){7 x,y,2,k;4(i==L.14.8.q)1g;b+="<X>";7 8=L.14.8[i];H(7 l=0;l<8.I.q;l++){4(8.I[l].1j==\'1o\'){x=8.I[l].w}}H(7 a=0;a<8.K.q;a++){y=8.K[a].1i.$t;2=8.K[a].1h$1k.N}4(2.f("/O/")!=-1){2=2.u("/O/","/s"+9+"-c/")}e 4(2.f("/T/")!=-1){2=2.u("/T/","/s"+9+"-c/")}e 4(2.f("/U-c/")!=-1&&2.f("h:")!=0){2="h:"+2.u("/U-c/","/s"+9+"-c/")}e 4(2.f("G.g/B/1n-P.J")!=-1){2="h://3.13.Q.g/-1m-1e/17/1c/1b/s"+9+"/15.R"}e 4(2.f("G.g/B/1d-P.J")!=-1){2="h://3.13.Q.g/-1R/1U/1P/1K/s"+9+"/1J.R"}e 4(2.f("G.g/B/1M.J")!=-1){4(m.f("S.g")!=-1){2=m+"&s="+9}e{2=m}}e{2=2}4(v==j){4(n==j){k="1O"}e{k=""}b+="<V C=\\"1T "+k+"\\"><B C=\\""+k+"\\" N=\\""+2+"\\" 1H=\\""+y+"\\" 1w=\\""+9+"\\" 1I=\\""+9+"\\"/></V>"}b+="<a w=\\""+x+"\\">"+y+"</a>";7 11=8.1v.$t;7 6=11.u(/(<([^>]+)>)/1u,"");4(6!=""&&6.q>A){6=6.1r(0,A);6+="&1s;";4(z==j){6+="<a w=\\""+x+"\\">"+E+"</a>"}}e{6=6}b+="<r>"+6+"</r>";b+="</X>"}b+=\'</Y>\';7 F="";4(M==j){F="10:1F;"}b+="<r 1G=\\"1E-1D:1A;10:1B;1C-1S:1z;"+F+"\\">1y 1t<a w=\\"h://W.1x.1L/\\">1Q</a></r>";1N.1q(b)}',62,119,'||authorAvatar||if||commBody|var|entry|avatarSize||commentsHtml|||else|indexOf|com|http||true|avatarClass||defaultAvatar|roundAvatar|undefined|typeof|length|span|||replace|showAvatar|href|commentlink|authorName|showMorelink|characters|img|class|numComments|moreLinktext|hideCSS|blogblog|for|link|gif|author|w2b|hideCredits|src|s1600|rounded|blogspot|png|gravatar|s220|s512|div|www|li|ul|false|display|commHTML|w2b_recent_comments|bp|feed|w2b_blogger_logo|avatar|TxMKLVzQ5BI|mm|60|40|QYau8ov2blE|AAAAAAAABYY|openid16|1X32ZM|raquo|break|gd|name|rel|image|function|AaI8|b16|alternate|More|write|substring|hellip|by|ig|content|width|way2blogging|Widget|right|10px|block|text|size|font|none|style|alt|height|w2b_openid_logo|8iasY0xpLzc|org|blank|document|avatarRound|AAAAAAAABYc|Way2Blogging|9lSeVyNRKx0|align|avatarImage|TxMKMIqMNuI'.split('|'),0,{}))
-
-//]]>
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('9 G=G||5,8=8||1z,w=w||1w,m=m||"j://V.L.g/1i/?d=1b",F=F||" 1c &1D;",x=(A x===\'B\')?h:x,o=(A o===\'B\')?Q:o,q=(A q===\'B\')?h:q,r=(A r===\'B\')?Q:r;18 14(C){9 7;7=\'<R J="14">\';U(9 i=0;i<G;i++){9 z,y,2,k;4(i==C.O.e.D)X;7+="<10>";9 e=C.O.e[i];U(9 l=0;l<e.E.D;l++){4(e.E[l].19==\'1a\'){z=e.E[l].v;X}}y=e.M[0].1x.$t;2=e.M[0].1E$16.N;4(2.f("/P/")!=-1){2=2.p("/P/","/s"+8+"-c/")}b 4(2.f("/S/")!=-1){2=2.p("/S/","/s"+8+"-c/")}b 4(2.f("/T-c/")!=-1&&2.f("j:")!==0){2="j:"+2.p("/T-c/","/s"+8+"-c/")}b 4(2.f("H.g/n/17-W.I")!=-1){2="j://3.Y.Z.g/-1d-1e/1f/1U/1g/s"+8+"/1h.11"}b 4(2.f("H.g/n/1j-W.I")!=-1){2="j://3.Y.Z.g/-1k/1l/1m/1n/s"+8+"/1o.11"}b 4(2.f("H.g/n/1p.I")!=-1){4(m.f("L.g")!=-1){2=m+"&s="+8}b{2=m}}b{2=2}4(x===h){4(q===h){k="1q"}b{k=""}7+="<12 J=\\"1s "+k+"\\"><n J=\\""+k+"\\" N=\\""+2+"\\" 1t=\\""+y+"\\" 1u=\\""+8+"\\" 1v=\\""+8+"\\"/></12>"}7+="<a v=\\""+z+"\\">"+y+"</a>";9 13=e.1y.$t;9 6=13.p(/(<([^>]+)>)/1A,"");4(6!==""&&6.D>w){6=6.1B(0,w);6+="&1C;";4(o===h){6+="<a v=\\""+z+"\\">"+F+"</a>"}}b{6=6}7+="<u>"+6+"</u>";7+="</10>"}7+=\'</R>\';9 K="";4(r===h){K="15:1F;"}7+="<u 1G=\\"1H-1I:1J;15:1K;1L-1M:1N;"+K+"\\">1O 1P <a v=\\"j://V.1Q.1R/\\">1S</a></u>";1T.1r(7)}',62,119,'||authorAvatar||if||commBody|commentsHtml|avatarSize|var||else|||entry|indexOf|com|true||http|avatarClass||defaultAvatar|img|showMorelink|replace|roundAvatar|hideCredits|||span|href|characters|showAvatar|authorName|commentlink|typeof|undefined|w2b|length|link|moreLinktext|numComments|blogblog|gif|class|hideCSS|gravatar|author|src|feed|s1600|false|ul|s220|s512|for|www|rounded|break|bp|blogspot|li|png|div|commHTML|w2b_recent_comments|display|image|b16|function|rel|alternate|mm|More|AaI8|1X32ZM|TxMKLVzQ5BI|QYau8ov2blE|w2b_blogger_logo|avatar|openid16|9lSeVyNRKx0|TxMKMIqMNuI|AAAAAAAABYc|8iasY0xpLzc|w2b_openid_logo|blank|avatarRound|write|avatarImage|alt|width|height|40|name|content|60|ig|substring|hellip|raquo|gd|none|style|font|size|10px|block|text|align|right|Widget|by|way2blogging|org|Way2Blogging|document|AAAAAAAABYY'.split('|'),0,{}))
